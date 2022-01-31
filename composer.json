@@ -1,14 +1,4 @@
 {
-  "name": "vendor_name/Framework",
-  "description": "description",
-  "minimum-stability": "stable",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "gleb",
-      "email": "email@example.com"
-    }
-  ],
   "require": {
   },
 
