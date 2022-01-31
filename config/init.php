@@ -19,8 +19,11 @@ define("ROOT", dirname(__DIR__));
 const APP = ROOT . "/app";
 const CONFIG = ROOT . "/config";
 const WWW = ROOT . "/public";
-const CACHE = ROOT . "/tmp";
+const TMP = ROOT . "/tmp";
 const VENDOR = ROOT . "/vendor";
 const CORE = VENDOR . "/core";
 const LIBS = CORE . "/libs";
 const BASE = CORE . "/base";
+
+require VENDOR . '/autoload.php';
+require LIBS . '/functions.php';
